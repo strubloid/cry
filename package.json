@@ -1,0 +1,28 @@
+{
+    "name": "cry",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "bcoinPrice": "node bomb/getBcoinPrice.js",
+        "getPrice": "node getBinanceCoinPrice.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/strubloid/cry.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/strubloid/cry/issues"
+    },
+    "homepage": "https://github.com/strubloid/cry#readme",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "ccxt": "^1.81.3",
+        "coingecko-api": "^1.0.10",
+        "dotenv": "^16.0.0",
+        "ws": "^8.5.0"
+    }
+}
